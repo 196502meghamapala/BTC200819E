@@ -10,6 +10,14 @@ public class StringMan {
 			System.out.println(dd[i]);
 		}
 		
+		char[] cc=b.toCharArray();
+		StringBuffer jj= new StringBuffer();
+		for (int i=cc.length-1; i>=0; i--) 
+		{
+			jj.append(cc[i]);
+		}
+		System.out.println(jj);
+		
 	
 
 	}
