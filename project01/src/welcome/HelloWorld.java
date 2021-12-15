@@ -4,6 +4,9 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 		
+<<<<<<< HEAD
+		System.out.println("Welcome to Hello World");
+=======
 		
 		String dd = "Java is all about class and objects";
 		
@@ -16,6 +19,7 @@ public class HelloWorld {
 		System.out.println(bb);
 		
 		
+>>>>>>> ddcbed145658cec56e28f4e0de22423f39fde390
 
 	}
 
