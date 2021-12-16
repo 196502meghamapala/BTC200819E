@@ -13,6 +13,8 @@ public class String_Man {
 		
 		int bb=ff.indexOf("z");
 		System.out.println(bb);
+		
+
 
 	}
 
