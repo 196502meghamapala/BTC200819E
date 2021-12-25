@@ -18,6 +18,19 @@ public class StringMan {
 		}
 		System.out.println(jj);
 		
+		String b1= "How";
+		String b2= "Hwo";
+		
+		int s=b1.compareTo(b2);
+		System.out.println(s);
+		
+		int b5[]= {2,6,8,10,15};
+		
+		for(int x: b5) {
+			System.out.println(x);
+		}
+		
+		
 	
 
 	}
