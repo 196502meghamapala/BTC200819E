@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 
 public class SetPract {
 	
+	
 	public void findUniqueValue(int [] a) {
 		HashSet<Integer> hp=new HashSet<>();
 		for(int x:a) {
@@ -73,7 +74,7 @@ public class SetPract {
 				return -1;
 			}else {
 		}
-		return 0;
+		return o;
 	}
 		
 		
