@@ -10,6 +10,12 @@ public class StringMan {
 		String dd[]=b.split(" ");
 		for (int i=0; i<dd.length; i++) {
 			System.out.println(dd[i]);
+		} 
+		
+		String ff="Everest is highest mountain in the world";
+		String mv[]=ff.split(" ");
+		for (int j=0; j<mv.length; j++) {
+			System.out.println(mv[j]);
 		}
 		
 		char[] cc=b.toCharArray();
@@ -43,4 +49,5 @@ public class StringMan {
 		for (int i=m.length-1; i>=0; i--) {
 			cd.append(m[i]);
 		}System.out.println(cd);
-		}}
+		}
+	}
