@@ -10,22 +10,21 @@ import org.testng.annotations.Test;
 
 public class SetPract {
 	
-	
 	public void findUniqueValue(int [] a) {
 		HashSet<Integer> hp=new HashSet<>();
 		for(int x:a) {
-				hp.add(x);
+				if(hp.add(x)==false) {
+					System.out.println(x+"is duplicate");
 			}
 			Iterator<Integer> i=hp.iterator();
 			while(i.hasNext()) {
 				System.out.println(i.next());
-			}
-		}
+			}}}
 	
 	@Test
 	public void test1() {
 		int [] a= {5,5,7,7,8,9,5,7,8};
-		fingUniqueValue(o);
+		findUniqueValue(a);
 		
 		HashSet<String> hp=new HashSet<>();
 		hp.add("hi");
@@ -35,8 +34,7 @@ public class SetPract {
 		Iterator<String> i=hp.iterator();
 		while(i.hasNext()) {
 			System.out.println(i.next());
-		}
-	}
+		}}
 	
 	@Test
 	public void test12() {
@@ -48,8 +46,7 @@ public class SetPract {
 		Iterator<String> i=hp.iterator();
 		while(i.hasNext()) {
 			System.out.println(i.next());
-		}
-	}
+		}}
 	
 	@Test
 	public void test142() {
@@ -61,11 +58,9 @@ public class SetPract {
 		Iterator<String> i=hp.iterator();
 		while(i.hasNext()) {
 			System.out.println(i.next());
-		}
-	}
+		}}
 	
 	class A implements Comparator<String>{
-		
 		@Override
 		public int compare(String arg0, String arg1) {
 			if(arg0.length()>arg1.length()) {
@@ -74,11 +69,8 @@ public class SetPract {
 				return -1;
 			}else {
 		}
-		return o;
-	}
-		
-		
-	}}
+		return 0;
+	 }}}
 	
 
 
